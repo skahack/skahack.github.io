@@ -1,0 +1,23 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+
+    title Mag | skahack
+
+    link(rel="canonical", href="https://skahack.github.io/")
+    link(href="//fonts.googleapis.com/css?family=Roboto+Slab:400", rel="stylesheet", type="text/css")
+    link(ref='//fonts.googleapis.com/css?family=Droid+Serif', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="/build.css")
+
+  body
+    include ./header.jade
+
+    .l-container
+      .m-book
+        != contents
+
+    include ./footer.jade
+
+    script(src="/build.js")
+
