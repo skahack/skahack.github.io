@@ -524,6 +524,10 @@ body {
 .m-book p:first-of-type {
   margin-top: 0;
 }
+.m-book a {
+  color: inherit;
+  text-decoration: underline;
+}
 .m-book .section {
   margin-bottom: 150px;
 }
